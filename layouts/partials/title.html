@@ -3,7 +3,10 @@
     <hgroup>
       <h1>{{ . }}</h1>
       {{ with $.Site.Params.description }}
-        <p>{{ . | markdownify }}</p>
+        {{ $highlight := "인테리어 스타일 가이드" }}
+        {{ $replacement := printf "**%s**" $highlight }}
+        {{ $desc := replace . $highlight $replacement }}
+        <p>{{ $desc | markdownify | safeHTML }}</p>
       {{ end }}
     </hgroup>
   {{ end }}

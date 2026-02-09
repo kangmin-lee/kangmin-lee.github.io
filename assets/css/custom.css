@@ -20,3 +20,10 @@ hgroup p {
 	gap: 0.6rem;
 }
 
+/* Highlight specific phrase in description */
+.home hgroup p strong,
+.desc-highlight,
+hgroup p strong {
+	color: var(--text-2) !important;
+}
+
