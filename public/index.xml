@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Interior Design Style Guide</title>
-    <link>https://kangmin-lee.github.io/</link>
-    <description>Recent content on Interior Design Style Guide</description>
+    <title>Jihee</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Jihee</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <atom:link href="https://kangmin-lee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interior Portfolio1</title>
-      <link>https://kangmin-lee.github.io/gallery/</link>
+      <link>http://localhost:1313/gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kangmin-lee.github.io/gallery/</guid>
+      <guid>http://localhost:1313/gallery/</guid>
       <description></description>
     </item>
     <item>
       <title>My Interior Portfolio</title>
-      <link>https://kangmin-lee.github.io/gallery3/</link>
+      <link>http://localhost:1313/gallery3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kangmin-lee.github.io/gallery3/</guid>
+      <guid>http://localhost:1313/gallery3/</guid>
       <description></description>
     </item>
     <item>
       <title>My Interior Portfolio2</title>
-      <link>https://kangmin-lee.github.io/gallery4/</link>
+      <link>http://localhost:1313/gallery4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kangmin-lee.github.io/gallery4/</guid>
+      <guid>http://localhost:1313/gallery4/</guid>
       <description></description>
     </item>
     <item>
       <title>My Interior Portfolio4</title>
-      <link>https://kangmin-lee.github.io/gallery2/</link>
+      <link>http://localhost:1313/gallery2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kangmin-lee.github.io/gallery2/</guid>
+      <guid>http://localhost:1313/gallery2/</guid>
       <description></description>
     </item>
   </channel>
