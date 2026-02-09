@@ -1,0 +1,4 @@
+baseURL = "https://kangmin-lee.github.io/"
+languageCode = "ko-kr"
+title = "Main page"
+theme = "Gallery"
