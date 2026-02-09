@@ -1,0 +1,63 @@
+/* 구글에서 '나눔스퀘어' 스타일의 폰트 불러오기 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+  color-scheme: light dark;
+
+  --surface-1-light: #fff;
+  --surface-2-light: #e5e5e5;
+  --text-1-light: #000000;
+  --text-2-light: #737373;
+  --border-light: #bbb;
+  --surface-1-dark: #FFFFFF;
+  --surface-2-dark: #404040;
+  --text-1-dark: #6B6B6B;
+  --text-2-dark: #A37500;
+  --border-dark: #606060;
+  --surface-1: var(--surface-1-light);
+  --surface-2: var(--surface-2-light);
+  --text-1: var(--text-1-light);
+  --text-2: var(--text-2-light);
+  --border: var(--border-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface-1: var(--surface-1-dark);
+    --surface-2: var(--surface-2-dark);
+    --text-1: var(--text-1-dark);
+    --text-2: var(--text-2-dark);
+    --border: var(--border-dark);
+  }
+}
+
+html.light {
+  color-scheme: light;
+
+  --surface-1: var(--surface-1-light);
+  --surface-2: var(--surface-2-light);
+  --text-1: var(--text-1-light);
+  --text-2: var(--text-2-light);
+  --border: var(--border-light);
+}
+
+html.dark {
+  color-scheme: dark;
+
+  --surface-1: var(--surface-1-dark);
+  --surface-2: var(--surface-2-dark);
+  --text-1: var(--text-1-dark);
+  --text-2: var(--text-2-dark);
+  --border: var(--border-dark);
+}
+body, button, input, select, textarea {
+    font-family: 'Playfair Display', sans-serif !important;
+}
+
+/* 3. 제목(h1, h2, h3, .title)에 Playfair Display 적용 (고급스러움) */
+h1, h2, h3, .title, .gallery-title {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 700;
+    letter-spacing: 0em; /* 명조체 계열은 자간을 너무 줄이지 않는 게 예쁩니다. */
+    color: var(--text-1);
+}
