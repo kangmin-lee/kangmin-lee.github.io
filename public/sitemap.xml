@@ -8,9 +8,11 @@
   </url><url>
     <loc>http://localhost:1313/gallery/</loc>
   </url><url>
-    <loc>http://localhost:1313/gallery2/</loc>
-  </url><url>
     <loc>http://localhost:1313/gallery3/</loc>
+  </url><url>
+    <loc>http://localhost:1313/gallery4/</loc>
+  </url><url>
+    <loc>http://localhost:1313/gallery2/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
