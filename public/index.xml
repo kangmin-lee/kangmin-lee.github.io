@@ -26,5 +26,15 @@
           &lt;img src=&quot;http://localhost:1313/gallery2/KakaoTalk_20260120_225327903_hu_c297b74b9ca8f9f9.jpg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
+    <item>
+      <title>My Interior Portfolio3</title>
+      <link>http://localhost:1313/gallery3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gallery3/</guid>
+        <media:content url="http://localhost:1313/gallery3/KakaoTalk_20260205_203420204_hu_5d138af321a138e3.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/gallery3/KakaoTalk_20260205_203420204_hu_5d138af321a138e3.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
   </channel>
 </rss>
