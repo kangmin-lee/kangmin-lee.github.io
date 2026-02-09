@@ -1,4 +1,4 @@
 ---
-title: "My Interior Portfolio"
+title: "Interior Portfolio1"
 layout: "gallery"
 ---
