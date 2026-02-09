@@ -1,0 +1,19 @@
+{{ if .IsHome }}
+  {{ with .Site.Params.title }}
+    <hgroup>
+      <h1>{{ . }}</h1>
+      {{ with $.Site.Params.description }}
+        <p>{{ . | markdownify }}</p>
+      {{ end }}
+    </hgroup>
+  {{ end }}
+{{ else }}
+  {{ if .Title }}
+    <hgroup>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.Description }}
+        <p>{{ . | markdownify }}</p>
+      {{ end }}
+    </hgroup>
+  {{ end }}
+{{ end }}

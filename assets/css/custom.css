@@ -1,1 +1,22 @@
 /* custom.css */
+
+/* Reduce vertical spacing for home title group */
+hgroup {
+	gap: 1.6rem; /* was 1.5rem in theme */
+}
+
+hgroup h1 {
+	margin: 0; /* tighten around heading */
+}
+
+hgroup p {
+	margin: 0; /* remove default p margins */
+	line-height: 0.05; /* slightly tighter line-height */
+	max-width: 64ch; /* keep paragraph readable */
+}
+
+/* If theme uses a specific selector for the home title, increase specificity */
+.home hgroup, body.home hgroup {
+	gap: 0.6rem;
+}
+
