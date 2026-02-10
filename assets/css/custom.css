@@ -6,12 +6,15 @@ hgroup {
 }
 
 hgroup h1 {
+	font-size: 3rem !important;
 	margin: 0; /* tighten around heading */
+  line-height: 1.05
 }
 
 hgroup p {
+	font-size: 1.2rem !important;
 	margin: 0; /* remove default p margins */
-	line-height: 1.1; /* slightly tighter line-height */
+	line-height: 1.05; /* slightly tighter line-height */
 	max-width: 64ch; /* keep paragraph readable */
 	word-break: keep-all
 }
