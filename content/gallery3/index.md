@@ -1,4 +1,5 @@
 ---
-title: "My Interior Portfolio"
+title: "Architecture"
 layout: "gallery"
+description: "메롱"
 ---

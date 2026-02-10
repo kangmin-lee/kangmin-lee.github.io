@@ -9,10 +9,10 @@
   --text-1-light: #6B6B6B;
   --text-2-light: #A37500;
   --border-light: #606060;
-  --surface-1-dark: #FFFFFF;
+  --surface-1-dark: #282828;
   --surface-2-dark: #404040;
-  --text-1-dark: #6B6B6B;
-  --text-2-dark: #A37500;
+  --text-1-dark: #fff7e4;
+  --text-2-dark: #fbb400;
   --border-dark: #606060;
   --surface-1: var(--surface-1-light);
   --surface-2: var(--surface-2-light);
@@ -20,6 +20,7 @@
   --text-2: var(--text-2-light);
   --border: var(--border-light);
 }
+//#8e54115a
 
 @media (prefers-color-scheme: dark) {
   :root {
