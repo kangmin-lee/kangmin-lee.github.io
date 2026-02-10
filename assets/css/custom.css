@@ -11,8 +11,9 @@ hgroup h1 {
 
 hgroup p {
 	margin: 0; /* remove default p margins */
-	line-height: 1.00; /* slightly tighter line-height */
+	line-height: 1.1; /* slightly tighter line-height */
 	max-width: 64ch; /* keep paragraph readable */
+	word-break: keep-all
 }
 
 /* If theme uses a specific selector for the home title, increase specificity */

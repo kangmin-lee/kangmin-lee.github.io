@@ -1,5 +1,5 @@
-/* 구글에서 '나눔스퀘어' 스타일의 폰트 불러오기 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Grandiflora+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet');
 
 :root {
   color-scheme: light dark;
@@ -51,13 +51,20 @@ html.dark {
   --border: var(--border-dark);
 }
 body, button, input, select, textarea {
-    font-family: 'Playfair Display', sans-serif !important;
+    font-family: 'Playfair Display','Frank Ruhl Libre', sans-serif !important;
 }
 
 /* 3. 제목(h1, h2, h3, .title)에 Playfair Display 적용 (고급스러움) */
 h1, h2, h3, .title, .gallery-title {
-    font-family: 'Playfair Display', serif !important;
+    font-family: 'Playfair Display','Frank Ruhl Libre', serif !important;
     font-weight: 700;
+    letter-spacing: 0em; /* 명조체 계열은 자간을 너무 줄이지 않는 게 예쁩니다. */
+    color: var(--text-1);
+}
+
+p {
+    font-family: 'Playfair Display','Frank Ruhl Libre', serif !important;
+    font-weight: 500;
     letter-spacing: 0em; /* 명조체 계열은 자간을 너무 줄이지 않는 게 예쁩니다. */
     color: var(--text-1);
 }
